@@ -18,7 +18,7 @@ def app(environ, start_response):
 	
 	# imposto il testo che da le info sul bot
 	infoText="""  Ciao sono il bot * CryptoAlert * """
-
+	# testo
 	# imposto URL principali per inviare messaggi (quello per i messaggi e quello per le foto)
 	URLT='https://api.telegram.org/bot' + Hook['env']['kkey'] + '/sendMessage'
 	URLTF='https://api.telegram.org/bot' + Hook['env']['kkey'] + '/sendPhoto'
